@@ -1,0 +1,20 @@
+# .gitattributes file for GAP repository
+
+# Handle line endings
+* text=auto
+
+# Specify the types of files to ensure proper handling
+*.gap  text
+*.g  text
+*.c  text
+*.cpp text
+*.h  text
+*.txt text
+*.md text
+
+# Binary files
+*.zip binary
+*.tar.gz binary
+*.jpg binary
+*.png binary
+*.gif binary
